@@ -27,6 +27,7 @@ export const AddCategory = ({onNewCategory}) => {
 
             <input 
                 type="text"
+                inputMode="numeric"
                 placeholder="Ingresa el tema de los Gifs que quieres buscar y presiona ENTER"
                 value={ inputValue }
                 // onChange = { (event) => onInputChange(event) } se puede acortar solo mandan la referencia por eso funciona onchange
